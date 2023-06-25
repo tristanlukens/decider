@@ -10,6 +10,14 @@
 	};
 </script>
 
+<svelte:head>
+	<title>Decider</title>
+	<meta
+		name="description"
+		content="Let the computer make descisions for you. Because let's face it, it's hard to be descisive."
+	/>
+</svelte:head>
+
 <main class="h-screen flex justify-center items-center flex-col space-y-4">
 	<h1 class="font-bold text-3xl">Decider</h1>
 	<button
