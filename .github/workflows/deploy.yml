@@ -27,9 +27,9 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/your-repo-name'
+          BASE_PATH: '/decider'
         run: |
-          npm run build
+          pnpm run build
           touch build/.nojekyll
 
       - name: Upload Artifacts
